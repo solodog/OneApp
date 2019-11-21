@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:icon="@mipmap/drawer"
+        android:title="one"
+        android:id="@+id/q">
+    </item>
+    <item
+        android:icon="@mipmap/phone"
+        android:title="two"
+        android:id="@+id/w">
+    </item>
+    <item
+        android:icon="@mipmap/ljt"
+        android:title="清除缓存"
+        android:id="@+id/e">
+    </item>
+    <item
+        android:icon="@mipmap/cog"
+        android:title="个人中心"
+        android:id="@+id/r">
+    </item>
+    </group>
+</menu>

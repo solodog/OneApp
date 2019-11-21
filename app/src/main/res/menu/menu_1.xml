@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/one" android:title="图"></item>
+    <item android:id="@+id/two" android:title="设置"></item>
+    <item android:icon="@mipmap/ss" android:id="@+id/ss" android:title="sm" app:showAsAction="always"/>
+</menu>

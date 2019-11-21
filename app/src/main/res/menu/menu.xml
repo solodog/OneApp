@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="图">
+        <menu>
+            <item android:title="one"
+                android:id="@+id/one"></item>
+        </menu>
+    </item>
+    <item
+        android:title="歌">
+        <menu>
+            <item  android:title="two"
+                    android:id="@+id/two">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:title="视频">
+        <menu>
+            <item android:title="three"
+                android:id="@+id/three"></item>
+        </menu>
+    </item>
+</menu>

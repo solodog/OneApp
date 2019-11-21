@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a17524.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/to"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="老王" />
+        <activity android:name=".WecomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".XqjmActivity" />
+        <activity android:name=".DlActivity" />
+        <activity android:name=".ZcActivity" />
+        <activity
+            android:name=".GrzxActivity"
+            android:label="个人中心" />
+        <activity android:name=".XgmmActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".MusicpalyActivity"
+            android:label="老王" />
+        <activity android:name=".ZjymActivity" />
+        <activity android:name=".SsjmActivity"></activity>
+    </application>
+
+</manifest>
